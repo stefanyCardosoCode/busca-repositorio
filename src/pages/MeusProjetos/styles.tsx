@@ -89,11 +89,6 @@ export const DotColor = styled.span<DotColorProps>`
     margin-right: 5px;
 `;
 
-export const Language = styled.p`
-    color: ${(props) => props.theme.colors.gray};
-    font-size: 16px;
-`;
-
 export const Link = styled.a`
     text-decoration: none;
     color: transparent;
